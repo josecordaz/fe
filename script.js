@@ -15,5 +15,4 @@ Http.onreadystatechange = (e) => {
         var person = JSON.parse(response);
         addInfo(person);
     }
-};
-
+}
